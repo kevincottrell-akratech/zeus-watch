@@ -1,0 +1,2 @@
+id,alias,organization_id,provenance_label,synthetic,source_kind,provenance_ref,created_by,created_at,updated_at,version,display_name
+f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3,ORG,f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3,synthetic_demo,True,bootstrap,fixture:showcase-v1,50a4316c-0a34-56b0-b608-334afcb92997,2026-11-07T18:00:00Z,2026-11-07T18:00:00Z,1,Mangrove Mews fictional organization

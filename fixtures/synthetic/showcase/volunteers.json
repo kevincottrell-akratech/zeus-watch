@@ -1,0 +1,402 @@
+[
+  {
+    "id": "5a483c11-9b94-51cd-8d09-bb2a59b20990",
+    "alias": "V01",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 01",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "fea04580-6e42-5b67-9f5a-23f58e431730",
+    "alias": "V02",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 02",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "e226f879-27bd-5974-88e8-89e83d6f057b",
+    "alias": "V03",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 03",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "30f801e1-15ab-5873-94fc-189f5e741380",
+    "alias": "V04",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 04",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "119916db-eafc-5b05-af1e-1ed8638dc249",
+    "alias": "V05",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 05",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "8274c19a-bfce-57e4-88f9-c21bad09e132",
+    "alias": "V06",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 06",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "686afe87-6bdd-5703-9538-0095d6f24d12",
+    "alias": "V07",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 07",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "d6ac6fe2-a342-561b-8a9d-7d709d261658",
+    "alias": "V08",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 08",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "440cfbbc-d249-5224-b83e-597e7d17b815",
+    "alias": "V09",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 09",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "316910d8-7562-55d6-9027-0894a4effa28",
+    "alias": "V10",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 10",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "80a14837-9183-561d-b484-19cf43dfa2a3",
+    "alias": "V11",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 11",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "902fbf44-1d85-5b97-b595-916853ec987f",
+    "alias": "V12",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 12",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "8cac2012-a4b9-584c-8ea8-28e242c1f889",
+    "alias": "V13",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 13",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "4b1dff2b-7e7a-5409-bb2c-99b04e2bbbe0",
+    "alias": "V14",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 14",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "5e6298fe-9717-555e-9159-d13acde3343a",
+    "alias": "V15",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 15",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "b2b7bbb3-a7ae-50e3-9666-c77a0a672496",
+    "alias": "V16",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 16",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "5bb3546f-4b52-5f2c-aec7-fe1e3eb6e9bf",
+    "alias": "V17",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 17",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "bbc323f8-44ce-5a09-82ae-d5463a6a507b",
+    "alias": "V18",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 18",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "91e76fd6-972b-5e0a-9ce2-df7c11fd6ce0",
+    "alias": "V19",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 19",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  },
+  {
+    "id": "1e87af18-52c0-52c7-9428-5ac2870ea375",
+    "alias": "V20",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Demo Volunteer 20",
+    "active": true,
+    "capabilities": [
+      "feeding",
+      "welfare_check"
+    ],
+    "contact": null
+  }
+]

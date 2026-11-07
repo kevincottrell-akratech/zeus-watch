@@ -1,0 +1,90 @@
+[
+  {
+    "media_alias": "P01",
+    "fixture_cat_ids": [
+      "K005"
+    ],
+    "cat_alias": "Smokey",
+    "view_id": "front-three-quarter",
+    "filename": "P01.png",
+    "synthetic": true,
+    "provenance": "synthetic_demo",
+    "creation_method": "OpenAI built-in image_gen; P02 reference-conditioned on P01",
+    "created_date": "2026-11-07",
+    "description": "solid gray cat, yellow-green eyes, seated; no white patches or collar",
+    "allowed_use": "Fictional Mangrove Mews demo/test media; AI-generated output subject to applicable OpenAI terms; not third-party source photography",
+    "sha256": "ec3d77940dadfde3aa38ab24bf49ba9eba5c68fa81c071423310400b1e13aefe",
+    "width": 1254,
+    "height": 1254,
+    "exif_present": false,
+    "observed_gps": null,
+    "contains_real_colony": false,
+    "visual_review": "Reviewed: caption, markings, generic setting; intended identity consistency only, not a biometric benchmark"
+  },
+  {
+    "media_alias": "P02",
+    "fixture_cat_ids": [
+      "K005"
+    ],
+    "cat_alias": "Smokey",
+    "view_id": "side-standing",
+    "filename": "P02.png",
+    "synthetic": true,
+    "provenance": "synthetic_demo",
+    "creation_method": "OpenAI built-in image_gen; P02 reference-conditioned on P01",
+    "created_date": "2026-11-07",
+    "description": "reference-conditioned alternate view of P01; intended same identity; no biometric guarantee",
+    "allowed_use": "Fictional Mangrove Mews demo/test media; AI-generated output subject to applicable OpenAI terms; not third-party source photography",
+    "sha256": "4b6bd7f361d72bc86155d64fb1cef2eb9cb360280605afa1c84cf9938658f65d",
+    "width": 1254,
+    "height": 1254,
+    "exif_present": false,
+    "observed_gps": null,
+    "contains_real_colony": false,
+    "visual_review": "Reviewed: caption, markings, generic setting; intended identity consistency only, not a biometric benchmark"
+  },
+  {
+    "media_alias": "P03",
+    "fixture_cat_ids": [
+      "K006"
+    ],
+    "cat_alias": "Flint",
+    "view_id": "front-three-quarter",
+    "filename": "P03.png",
+    "synthetic": true,
+    "provenance": "synthetic_demo",
+    "creation_method": "OpenAI built-in image_gen; P02 reference-conditioned on P01",
+    "created_date": "2026-11-07",
+    "description": "stockier gray cat with distinctive black left front paw",
+    "allowed_use": "Fictional Mangrove Mews demo/test media; AI-generated output subject to applicable OpenAI terms; not third-party source photography",
+    "sha256": "3f2367314a8768a866554439e4302435ee7871f277e51e77f60ded7806712209",
+    "width": 1254,
+    "height": 1254,
+    "exif_present": false,
+    "observed_gps": null,
+    "contains_real_colony": false,
+    "visual_review": "Reviewed: caption, markings, generic setting; intended identity consistency only, not a biometric benchmark"
+  },
+  {
+    "media_alias": "P05",
+    "fixture_cat_ids": [
+      "K001"
+    ],
+    "cat_alias": "Luna",
+    "view_id": "resting",
+    "filename": "P05.png",
+    "synthetic": true,
+    "provenance": "synthetic_demo",
+    "creation_method": "OpenAI built-in image_gen; P02 reference-conditioned on P01",
+    "created_date": "2026-11-07",
+    "description": "calico resting; one ear obscured; no visible injury or diagnostic evidence",
+    "allowed_use": "Fictional Mangrove Mews demo/test media; AI-generated output subject to applicable OpenAI terms; not third-party source photography",
+    "sha256": "b63c78dc80a72d0b79f99d71c917bba0bafea7d877d06f9b86f8850609b5a464",
+    "width": 1254,
+    "height": 1254,
+    "exif_present": false,
+    "observed_gps": null,
+    "contains_real_colony": false,
+    "visual_review": "Reviewed: caption, markings, generic setting; intended identity consistency only, not a biometric benchmark"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "frozen_time": "2026-11-07T18:00:00Z",
+  "updates": 15,
+  "approved": 12,
+  "pending": 2,
+  "rejected": 1,
+  "known_identities": 6,
+  "observations_total": 14,
+  "observations_new": 12,
+  "complete_census": {
+    "C01": 3,
+    "C02": 3
+  },
+  "unknown_colonies": 16,
+  "partial_C03": {
+    "min": 3,
+    "max": 5
+  },
+  "sterilization": {
+    "fixed": 2,
+    "not_fixed": 1,
+    "unknown_including_conflicting": 3
+  },
+  "issues_open": 3,
+  "actions_open": 2,
+  "reported_visits": 1,
+  "confirmed_completions": 0,
+  "replay_additions": 0
+}

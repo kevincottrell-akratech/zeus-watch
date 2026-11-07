@@ -1,0 +1,16 @@
+[
+  {
+    "id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "alias": "ORG",
+    "organization_id": "f1832e7e-ae5e-5140-b127-3c4dd8d9e4a3",
+    "provenance_label": "synthetic_demo",
+    "synthetic": true,
+    "source_kind": "bootstrap",
+    "provenance_ref": "fixture:showcase-v1",
+    "created_by": "50a4316c-0a34-56b0-b608-334afcb92997",
+    "created_at": "2026-11-07T18:00:00Z",
+    "updated_at": "2026-11-07T18:00:00Z",
+    "version": 1,
+    "display_name": "Mangrove Mews fictional organization"
+  }
+]

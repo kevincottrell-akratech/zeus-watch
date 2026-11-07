@@ -1,0 +1,12 @@
+{
+  "colonies": 18,
+  "cats": 108,
+  "volunteers": 20,
+  "visits": 54,
+  "complete_census_observations": 15,
+  "pending_updates": 24,
+  "review_cases": 24,
+  "issues": 18,
+  "actions": 18,
+  "note": "Visual showcase only, not PRD golden acceptance fixture"
+}
