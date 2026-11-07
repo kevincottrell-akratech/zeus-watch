@@ -1,0 +1,11 @@
+run = "npm run build && npm start"
+entrypoint = "server/index.mjs"
+modules = ["nodejs-24"]
+
+[deployment]
+run = ["sh", "-c", "npm start"]
+build = ["sh", "-c", "npm run setup && npm run build"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
