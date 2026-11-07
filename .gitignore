@@ -1,0 +1,15 @@
+node_modules/
+client/node_modules/
+client/dist/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+data/
+private_review/
+playwright-report/
+test-results/
+*.log
