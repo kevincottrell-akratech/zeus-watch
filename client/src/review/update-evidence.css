@@ -1,0 +1,30 @@
+.update-summary-text {
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--surface-soft, #f0f3e8);
+  overflow-wrap: anywhere;
+}
+
+.update-original-source {
+  margin: 18px 0;
+  border: 1px solid var(--border, #dce2d5);
+  border-radius: 8px;
+  padding: 0 14px;
+}
+
+.update-original-source > summary {
+  cursor: pointer;
+  padding: 14px 0;
+  font-weight: 600;
+}
+
+.update-original-source > summary:focus-visible {
+  outline: 2px solid #a88845;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.update-original-source blockquote {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}

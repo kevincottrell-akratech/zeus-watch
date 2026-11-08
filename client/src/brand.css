@@ -1,0 +1,58 @@
+.brand-icon {
+  overflow: hidden;
+  flex: 0 0 auto;
+  padding: 0;
+}
+
+.brand-icon-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-story .brand-icon {
+  background: transparent;
+}
+
+.login-story .brand,
+.login-story > div:nth-child(2),
+.login-story > small {
+  position: relative;
+  z-index: 1;
+}
+
+.login-cat {
+  position: absolute;
+  z-index: 0;
+  right: 2%;
+  bottom: 16px;
+  width: min(94%, 700px);
+  height: min(38vh, 360px);
+  opacity: 0.88;
+  pointer-events: none;
+}
+
+.login-cat img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+@media (max-width: 760px) {
+  .login-story {
+    min-height: 610px;
+    padding-bottom: 215px;
+  }
+
+  .login-cat {
+    right: 14px;
+    bottom: 10px;
+    left: 14px;
+    width: auto;
+    height: 190px;
+    opacity: 0.92;
+  }
+}

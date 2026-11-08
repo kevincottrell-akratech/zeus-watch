@@ -13,3 +13,21 @@ private_review/
 playwright-report/
 test-results/
 *.log
+/generated-artifacts/
+/client/src/data/fictional-colony-map.json
+
+# Workspace-only material: never part of the public source handoff.
+/.agents/
+/.local/
+/.cache/
+/.config/
+/.upm/
+/attached_assets/
+/synthetic-cat-images/
+*.tsbuildinfo
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519

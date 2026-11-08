@@ -1,11 +1,48 @@
 run = "npm run build && npm start"
 entrypoint = "server/index.mjs"
-modules = ["nodejs-24"]
+modules = ["nodejs-24", "python-base-3.13"]
 
 [deployment]
 run = ["sh", "-c", "npm start"]
 build = ["sh", "-c", "npm run setup && npm run build"]
+deploymentTarget = "vm"
 
 [[ports]]
 localPort = 3000
 externalPort = 80
+
+[userenv]
+
+[userenv.shared]
+NODE_ENV = "production"
+COOKIE_SECURE = "1"
+
+[nix]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Zeus Watch"
+
+[[workflows.workflow]]
+name = "Zeus Watch"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run build && npm start"
+waitForPort = 3000
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 180000

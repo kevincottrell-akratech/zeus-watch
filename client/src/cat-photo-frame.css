@@ -1,0 +1,10 @@
+.cat-photo {
+  aspect-ratio: 4 / 5;
+  height: auto;
+  background: #f1f3ec;
+}
+
+.cat-photo img {
+  object-fit: contain;
+  object-position: center;
+}

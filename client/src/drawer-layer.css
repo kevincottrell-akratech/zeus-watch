@@ -1,0 +1,33 @@
+.zw-drawer-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  isolation: isolate;
+  pointer-events: none;
+}
+
+.zw-drawer-layer > .modal-backdrop {
+  pointer-events: auto;
+}
+
+.zw-drawer-layer .drawer {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overscroll-behavior: contain;
+}
+
+.zw-drawer-layer .drawer > header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  flex: 0 0 auto;
+  padding: 8px 0 10px;
+  margin-top: -8px;
+  background: #fcfdf8;
+}
+
+.zw-drawer-layer .floating-error {
+  z-index: 100;
+  pointer-events: auto;
+}

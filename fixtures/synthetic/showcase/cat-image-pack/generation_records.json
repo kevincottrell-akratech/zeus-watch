@@ -1,0 +1,184 @@
+[
+  {
+    "alias": "K001",
+    "view": "front",
+    "file": "images/K001_front.png",
+    "prompt": "Fictional adult calico, white chin, orange eye patch and black ear, full body portrait, anonymous garden, synthetic demo.",
+    "reference": null
+  },
+  {
+    "alias": "K001",
+    "view": "side",
+    "file": "images/K001_side.png",
+    "prompt": "Use case: identity-preserve. Reference image is the fictional cat K001. Create a new photorealistic photo of the SAME cat, preserving its face shape, fur length, exact coat markings/colors, eye color and paw colors. Change only pose and camera angle: full-body side profile standing, head slightly turned toward camera. Generic anonymous garden in natural daylight. Entire cat in frame. No text/people/collars. This is a synthetic multi-view identity demo, not a real rescue animal.",
+    "reference": "images/K001_front.png"
+  },
+  {
+    "alias": "K001",
+    "view": "rear",
+    "file": "images/K001_rear.png",
+    "prompt": "Use case: identity-preserve. Reference image is the fictional cat K001. Create a new photorealistic photo of the SAME cat, preserving its face shape, fur length, exact coat markings/colors, eye color and paw colors. Change only pose and camera angle: rear three-quarter view, standing, tail fully visible and face looking back toward camera. Generic anonymous garden in natural daylight. Entire cat in frame. No text/people/collars. This is a synthetic multi-view identity demo, not a real rescue animal.",
+    "reference": "images/K001_front.png"
+  },
+  {
+    "alias": "K002",
+    "view": "front",
+    "file": "images/K002_front.png",
+    "prompt": "Use case: photorealistic-natural. Create one realistic synthetic cat portrait for a fictional rescue app: senior short-haired silver-gray cat with charcoal left front paw, amber eyes, rounded face. Full body sitting front three-quarter view, entire tail/paws visible, generic nonidentifiable garden, soft natural daylight, no people, no collars/logos/text, no injuries. Square photo. Preserve realistic feline anatomy. Stable fictional ID K002.",
+    "reference": null
+  },
+  {
+    "alias": "K002",
+    "view": "side",
+    "file": "images/K002_side.png",
+    "prompt": "Use case: identity-preserve. Reference image is the fictional cat K002. Create a new photorealistic photo of the SAME cat, preserving its face shape, fur length, exact coat markings/colors, eye color and paw colors. Change only pose and camera angle: full-body side profile standing, head slightly turned toward camera. Generic anonymous garden in natural daylight. Entire cat in frame. No text/people/collars. This is a synthetic multi-view identity demo, not a real rescue animal.",
+    "reference": "images/K002_front.png"
+  },
+  {
+    "alias": "K002",
+    "view": "rear",
+    "file": "images/K002_rear.png",
+    "prompt": "Use case: identity-preserve. Reference image is the fictional cat K002. Create a new photorealistic photo of the SAME cat, preserving its face shape, fur length, exact coat markings/colors, eye color and paw colors. Change only pose and camera angle: rear three-quarter view, standing, tail fully visible and face looking back toward camera. Generic anonymous garden in natural daylight. Entire cat in frame. No text/people/collars. This is a synthetic multi-view identity demo, not a real rescue animal.",
+    "reference": "images/K002_front.png"
+  },
+  {
+    "alias": "K003",
+    "view": "front",
+    "file": "images/K003_front.png",
+    "prompt": "Use case: photorealistic-natural. Create one realistic synthetic cat portrait for a fictional rescue app: young adult brown mackerel tabby with striped ringed tail, green eyes, slim build. Full body sitting front three-quarter view, entire tail/paws visible, generic nonidentifiable garden, soft natural daylight, no people, no collars/logos/text, no injuries. Square photo. Preserve realistic feline anatomy. Stable fictional ID K003.",
+    "reference": null
+  },
+  {
+    "alias": "K003",
+    "view": "side",
+    "file": "images/K003_side.png",
+    "prompt": "Use case: identity-preserve. Reference image is fictional cat K003. New photorealistic photograph of SAME cat with identical coat pattern, face, fur length, eye and paw colors. Change camera/pose only: full-body side profile standing, head slightly turned toward camera. Generic garden, daylight, entire cat visible. No text, people, collars, logos or injuries. Synthetic identification demo.",
+    "reference": "images/K003_front.png"
+  },
+  {
+    "alias": "K003",
+    "view": "rear",
+    "file": "images/K003_rear.png",
+    "prompt": "Use case: identity-preserve. Reference image is fictional cat K003. New photorealistic photograph of SAME cat with identical coat pattern, face, fur length, eye and paw colors. Change camera/pose only: rear three-quarter view standing, tail visible and face looking back. Generic garden, daylight, entire cat visible. No text, people, collars, logos or injuries. Synthetic identification demo.",
+    "reference": "images/K003_front.png"
+  },
+  {
+    "alias": "K004",
+    "view": "front",
+    "file": "images/K004_front.png",
+    "prompt": "Use case: photorealistic-natural. Create one realistic synthetic cat portrait for a fictional rescue app: juvenile black-and-white tuxedo cat, distinct white chest blaze shaped like a narrow diamond, white toes, amber eyes. Full body sitting front three-quarter view, entire tail/paws visible, generic nonidentifiable garden, soft natural daylight, no people, no collars/logos/text, no injuries. Square photo. Preserve realistic feline anatomy. Stable fictional ID K004.",
+    "reference": null
+  },
+  {
+    "alias": "K004",
+    "view": "side",
+    "file": "images/K004_side.png",
+    "prompt": "Use case: identity-preserve. Reference image is fictional cat K004. New photorealistic photograph of SAME cat with identical coat pattern, face, fur length, eye and paw colors. Change camera/pose only: full-body side profile standing, head slightly turned toward camera. Generic garden, daylight, entire cat visible. No text, people, collars, logos or injuries. Synthetic identification demo.",
+    "reference": "images/K004_front.png"
+  },
+  {
+    "alias": "K004",
+    "view": "rear",
+    "file": "images/K004_rear.png",
+    "prompt": "Use case: identity-preserve. Reference image is fictional cat K004. New photorealistic photograph of SAME cat with identical coat pattern, face, fur length, eye and paw colors. Change camera/pose only: rear three-quarter view standing, tail visible and face looking back. Generic garden, daylight, entire cat visible. No text, people, collars, logos or injuries. Synthetic identification demo.",
+    "reference": "images/K004_front.png"
+  },
+  {
+    "alias": "K007",
+    "view": "front",
+    "file": "images/K007_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K007: adult calico with white chin, predominantly white body, small ginger eyebrow spots, green eyes. Distinct realistic individual, full body seated or resting naturally, face and coat visible, generic anonymous garden/stone backdrop, daylight, no identifiable real location. Square image, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K014",
+    "view": "front",
+    "file": "images/K014_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K014: senior gray cat, dark left forepaw, slender face, pale amber eyes. Distinct realistic individual, full body seated or resting naturally, face and coat visible, generic anonymous garden/stone backdrop, daylight, no identifiable real location. Square image, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K021",
+    "view": "front",
+    "file": "images/K021_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K021: young adult silver tabby, ringed tail, emerald eyes. Distinct realistic individual, full body seated or resting naturally, face and coat visible, generic anonymous garden/stone backdrop, daylight, no identifiable real location. Square image, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K028",
+    "view": "front",
+    "file": "images/K028_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K028: juvenile black-white cat, broad chest blaze, white nose stripe, yellow eyes. Distinct realistic individual, full body seated or resting naturally, face and coat visible, generic anonymous garden/stone backdrop, daylight, no identifiable real location. Square image, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K035",
+    "view": "front",
+    "file": "images/K035_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K035: adult ginger-orange cat, one ear partly obscured by natural head angle, amber eyes, fluffy tail. Distinct realistic individual, full body seated or resting naturally, face and coat visible, generic anonymous garden/stone backdrop, daylight, no identifiable real location. Square image, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K042",
+    "view": "front",
+    "file": "images/K042_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K042: senior tortoiseshell cat with uneven caramel flank patch, round green eyes. Distinct realistic individual, full body seated or resting naturally, face and coat visible, generic anonymous garden/stone backdrop, daylight, no identifiable real location. Square image, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K043",
+    "view": "front",
+    "file": "images/K043_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K043: adult calico with white chin, black saddle, orange cheeks, yellow eyes. Distinct realistic individual, full body seated or resting naturally, face and coat visible, generic anonymous garden/stone backdrop, daylight, no identifiable real location. Square image, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K050",
+    "view": "front",
+    "file": "images/K050_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K050: senior slate gray short-haired cat, dark left front paw, long face, amber eyes. Distinct realistic individual, full body sitting or lying naturally, face and coat visible, generic anonymous leafy courtyard backdrop, soft daylight, no identifiable real location. Square photo, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K057",
+    "view": "front",
+    "file": "images/K057_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K057: young adult golden-brown tabby, ringed tail, large hazel eyes. Distinct realistic individual, full body sitting or lying naturally, face and coat visible, generic anonymous leafy courtyard backdrop, soft daylight, no identifiable real location. Square photo, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K064",
+    "view": "front",
+    "file": "images/K064_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K064: juvenile black-white tuxedo cat with chest blaze and pink nose, pale green eyes. Distinct realistic individual, full body sitting or lying naturally, face and coat visible, generic anonymous leafy courtyard backdrop, soft daylight, no identifiable real location. Square photo, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K071",
+    "view": "front",
+    "file": "images/K071_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K071: adult orange shorthair, one ear partly obscured by head angle, cream muzzle, green eyes. Distinct realistic individual, full body sitting or lying naturally, face and coat visible, generic anonymous leafy courtyard backdrop, soft daylight, no identifiable real location. Square photo, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K078",
+    "view": "front",
+    "file": "images/K078_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K078: senior tortoiseshell with uneven honey-colored flank patch, golden eyes. Distinct realistic individual, full body sitting or lying naturally, face and coat visible, generic anonymous leafy courtyard backdrop, soft daylight, no identifiable real location. Square photo, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K079",
+    "view": "front",
+    "file": "images/K079_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K079: adult calico, white chin, mostly black crown with thin orange streak, copper eyes. Distinct realistic individual, full body sitting or lying naturally, face and coat visible, generic anonymous leafy courtyard backdrop, soft daylight, no identifiable real location. Square photo, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  },
+  {
+    "alias": "K086",
+    "view": "front",
+    "file": "images/K086_front.png",
+    "prompt": "Photorealistic-natural portrait of one fictional cat for synthetic rescue-demo data. Cat K086: senior plush gray cat with dark left front paw, broad head, green eyes. Distinct realistic individual, full body sitting or lying naturally, face and coat visible, generic anonymous leafy courtyard backdrop, soft daylight, no identifiable real location. Square photo, no text, collars, people, logos or injury. Not a real rescue photograph.",
+    "reference": null
+  }
+]

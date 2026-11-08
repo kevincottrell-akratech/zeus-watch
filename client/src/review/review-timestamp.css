@@ -1,0 +1,16 @@
+.source-timestamp, .review-timestamp {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.source-timestamp dt {
+  color: var(--muted, #687561);
+  font-size: .78rem;
+  margin-top: .75rem;
+}
+.source-timestamp dd {
+  margin: .25rem 0 .75rem;
+}
+.source-timestamp .reviewed-observation-time {
+  border-top: 1px solid #e2e6db;
+  padding-top: .75rem;
+}

@@ -1,0 +1,363 @@
+.colony-selection-backdrop {
+  position: fixed;
+  z-index: 90;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: auto;
+  padding: clamp(10px, 2.4vw, 30px);
+  background: rgb(32 43 35 / 56%);
+  backdrop-filter: blur(3px);
+}
+
+.colony-selection-dialog {
+  --selection-ink: #35483a;
+  --selection-muted: #73816f;
+  --selection-line: #dce4d7;
+  display: flex;
+  width: min(1120px, 100%);
+  height: min(790px, calc(100dvh - 44px));
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #d6dfd0;
+  border-radius: 16px;
+  background: #f8f9f3;
+  color: var(--selection-ink);
+  box-shadow: 0 24px 80px rgb(20 31 23 / 30%), 0 3px 12px rgb(20 31 23 / 12%);
+  isolation: isolate;
+}
+
+.colony-selection-header {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 68px;
+  padding: 12px 20px 12px 24px;
+  border-bottom: 1px solid var(--selection-line);
+  background: #fbfcf7;
+}
+
+.colony-selection-heading {
+  min-width: 0;
+}
+
+.colony-selection-kicker {
+  display: block;
+  margin-bottom: 3px;
+  color: #879477;
+  font-size: 9px;
+  font-weight: 750;
+  letter-spacing: 1.45px;
+  text-transform: uppercase;
+}
+
+.colony-selection-header h2 {
+  overflow: hidden;
+  margin: 0;
+  color: #35483a;
+  font: 400 clamp(20px, 2vw, 25px)/1.15 Georgia, "Times New Roman", serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.colony-selection-close {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid #dce4d7;
+  border-radius: 9px;
+  background: #fffefa;
+  color: #52664f;
+  cursor: pointer;
+  transition: background-color .16s ease, transform .16s ease;
+}
+
+.colony-selection-close:hover {
+  transform: translateY(-1px);
+  background: #edf2e8;
+}
+
+.colony-selection-close:focus-visible {
+  outline: 3px solid #c8a15e;
+  outline-offset: 3px;
+}
+
+.colony-selection-body {
+  display: grid;
+  min-height: 0;
+  flex: 1 1 auto;
+  grid-template-columns: minmax(0, 1.04fr) minmax(340px, .96fr);
+  overflow: hidden;
+}
+
+.selected-park-map {
+  position: relative;
+  z-index: 0;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  border-right: 1px solid var(--selection-line);
+  background: #e9efe3;
+  isolation: isolate;
+  contain: paint;
+  clip-path: inset(0);
+}
+
+.selected-park-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #e9efe3;
+}
+
+.selected-park-canvas:focus-visible {
+  outline: 2px solid #b2945c;
+  outline-offset: -3px;
+}
+
+.selected-park-map .leaflet-container {
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+  background: #e9efe3;
+}
+
+.selected-park-map .leaflet-control-zoom {
+  margin: 12px;
+  overflow: hidden;
+  border: 1px solid #dfe7d7;
+  border-radius: 8px;
+  box-shadow: 0 2px 9px rgb(38 61 48 / 12%);
+}
+
+.selected-park-map .leaflet-control-zoom a {
+  border-color: #e5ebdf;
+  background: #fffefa;
+  color: #536b4e;
+}
+
+.selected-park-map .leaflet-control-attribution {
+  max-width: calc(100% - 8px);
+  color: #657361;
+  background: rgb(255 252 240 / 94%);
+  font-size: 9px;
+}
+
+.selected-park-map .leaflet-control-attribution a {
+  color: #536e4a;
+}
+
+.selected-park-map .zw-colony-marker {
+  border: 0;
+  background: none;
+}
+
+.selected-park-map .zw-colony-marker__dot {
+  position: relative;
+  display: grid;
+  width: 30px;
+  height: 38px;
+  place-items: start center;
+}
+
+.selected-park-map .zw-colony-marker__dot::before {
+  position: absolute;
+  top: 2px;
+  width: 23px;
+  height: 23px;
+  border: 3px solid #fffdf5;
+  border-radius: 50% 50% 50% 5px;
+  background: var(--marker-color, #87977b);
+  box-shadow: 0 2px 7px rgb(36 60 48 / 25%);
+  content: "";
+  transform: rotate(-45deg);
+}
+
+.selected-park-map .zw-colony-marker__dot span {
+  position: absolute;
+  top: 9px;
+  z-index: 1;
+  width: 7px;
+  height: 7px;
+  border: 1px solid rgb(255 255 255 / 85%);
+  border-radius: 50%;
+  background: #fffdf5;
+}
+
+.selected-park-caption {
+  position: absolute;
+  z-index: 500;
+  top: 12px;
+  left: 12px;
+  max-width: calc(100% - 72px);
+  overflow: hidden;
+  padding: 7px 10px;
+  border: 1px solid #e1e7dc;
+  border-radius: 7px;
+  background: rgb(255 253 245 / 94%);
+  color: #5c7055;
+  font-size: 10px;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgb(38 59 37 / 10%);
+  pointer-events: none;
+}
+
+.colony-selection-details {
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 22px clamp(18px, 2.6vw, 30px);
+  background: #fffefa;
+  scrollbar-color: #c4cfbc transparent;
+  scrollbar-width: thin;
+}
+
+.colony-selection-footer {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  flex: 0 0 auto;
+  gap: 6px;
+  padding: 10px 20px 11px;
+  border-top: 1px solid var(--selection-line);
+  background: #f4f6ee;
+  color: #788573;
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+.colony-selection-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  color: #697b60;
+  font-weight: 600;
+}
+
+.colony-selection-notice svg {
+  flex: 0 0 auto;
+  margin-top: 1px;
+}
+
+.colony-selection-attribution {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.colony-selection-attribution p {
+  max-width: 58%;
+  margin: 0;
+}
+
+.colony-selection-attribution-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px 12px;
+}
+
+.colony-selection-attribution a {
+  color: #607b53;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.colony-selection-attribution a:focus-visible {
+  outline: 2px solid #c8a15e;
+  outline-offset: 2px;
+}
+
+@media (max-width: 760px) {
+  .colony-selection-backdrop {
+    place-items: center;
+    padding: 9px;
+  }
+
+  .colony-selection-dialog {
+    width: 100%;
+    height: calc(100dvh - 18px);
+    max-height: none;
+    border-radius: 12px;
+  }
+
+  .colony-selection-header {
+    min-height: 59px;
+    padding: 9px 12px 9px 16px;
+  }
+
+  .colony-selection-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selected-park-map {
+    flex: 0 0 clamp(180px, 30dvh, 260px);
+    border-right: 0;
+    border-bottom: 1px solid var(--selection-line);
+  }
+
+  .selected-park-caption {
+    top: 8px;
+    left: 8px;
+    font-size: 9px;
+  }
+
+  .colony-selection-details {
+    flex: 1 1 0;
+    padding: 18px 16px;
+  }
+
+  .colony-selection-footer {
+    gap: 5px;
+    padding: 8px 12px;
+    font-size: 8px;
+  }
+
+  .colony-selection-attribution {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .colony-selection-attribution p {
+    max-width: 100%;
+  }
+
+  .colony-selection-attribution-links {
+    justify-content: flex-start;
+    gap: 3px 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .colony-selection-header h2 {
+    font-size: 19px;
+  }
+
+  .selected-park-map {
+    flex-basis: 180px;
+  }
+
+  .colony-selection-footer {
+    padding: 7px 10px;
+    font-size: 7.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .colony-selection-close {
+    transition: none;
+  }
+}

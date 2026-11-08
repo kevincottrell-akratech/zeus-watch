@@ -1,0 +1,124 @@
+.in-page-select {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  color: #31483a;
+  font-family: inherit;
+}
+
+.in-page-select__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid #d6dfd0;
+  border-radius: 7px;
+  background: #fff;
+  color: #31483a;
+  font: inherit;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  cursor: pointer;
+}
+
+.in-page-select__trigger:hover:not(:disabled) {
+  border-color: #aeba9f;
+  background: #fbfcf8;
+}
+
+.in-page-select__trigger:focus-visible {
+  outline: 3px solid #c8a15e;
+  outline-offset: 3px;
+}
+
+.in-page-select__trigger:disabled {
+  cursor: not-allowed;
+  background: #eef1e9;
+  color: #697565;
+  opacity: 1;
+}
+
+.in-page-select__value {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.in-page-select__chevron {
+  flex: 0 0 8px;
+  width: 8px;
+  height: 8px;
+  margin: -4px 2px 0 0;
+  transform: rotate(45deg);
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+}
+
+.in-page-select__listbox {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-height: min(15rem, 38vh);
+  min-height: 0;
+  margin-top: 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid #d6dfd0;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 5px 14px rgb(49 72 58 / 10%);
+  scrollbar-color: #aeba9f #f4f6ef;
+  scrollbar-width: thin;
+}
+
+.in-page-select__option {
+  min-width: 0;
+  padding: 10px 12px;
+  color: #31483a;
+  font-size: 12px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+
+.in-page-select__option + .in-page-select__option {
+  border-top: 1px solid #edf0e9;
+}
+
+.in-page-select__option[aria-selected="true"] {
+  background: #f1f4eb;
+  color: #40583e;
+  font-weight: 600;
+}
+
+.in-page-select__option[data-active="true"] {
+  outline: 2px solid #c8a15e;
+  outline-offset: -2px;
+}
+
+.in-page-select__option[aria-disabled="true"] {
+  color: #8b9487;
+  cursor: not-allowed;
+}
+
+.in-page-select__native-proxy {
+  display: none !important;
+}
+
+@media (max-width: 360px) {
+  .in-page-select__trigger {
+    gap: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .in-page-select__option {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

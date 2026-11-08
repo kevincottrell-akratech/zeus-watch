@@ -1,0 +1,33 @@
+/* Cat-detail reference gallery only: preserve the full synthetic frame. */
+.cat-primary-photo img.detail-photo {
+  display: block;
+  width: 100%;
+  height: clamp(180px, 38vw, 340px);
+  max-height: none;
+  object-fit: contain;
+  background: #f1f5e9;
+  border-radius: 10px;
+}
+
+.cat-extra-views.evidence-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
+  gap: 14px;
+  overflow: visible;
+  align-items: start;
+}
+
+.cat-extra-views.evidence-photos > figure {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+}
+
+.cat-extra-views.evidence-photos > figure > img {
+  display: block;
+  width: 100%;
+  height: clamp(150px, 24vw, 210px);
+  object-fit: contain;
+  background: #f1f5e9;
+  border-radius: 8px;
+}

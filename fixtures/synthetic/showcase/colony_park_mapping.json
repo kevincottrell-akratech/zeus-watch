@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "description": "Fixed fictional map examples. Park association is for demonstration only and is not a claim of colony presence.",
+  "locations": [
+    { "colony_id": "d41081ee-397d-5f21-be11-e4bb19b77f73", "park_id": "402703" },
+    { "colony_id": "4b91ea98-56fe-5611-a4cd-18f5058a5134", "park_id": "880201" },
+    { "colony_id": "e419a267-791b-53e0-84cb-fdc00c7fa9e9", "park_id": "123302" },
+    { "colony_id": "0149622e-423f-5103-afef-77e7eda5407a", "park_id": "602201" },
+    { "colony_id": "c37080c1-f17a-54b4-9873-827b16b22c88", "park_id": "200301" },
+    { "colony_id": "29c8d75e-e63f-57ac-9098-41f80cf20d1a", "park_id": "422801" },
+    { "colony_id": "aca82106-952b-5d35-b2ce-9266845b3493", "park_id": "311004" },
+    { "colony_id": "a09e332c-9bda-5c69-aa93-fd5b8ddbf5c7", "park_id": "682101" },
+    { "colony_id": "08dfdfc4-5e47-51cd-bbc1-31fce1f16747", "park_id": "590501" },
+    { "colony_id": "2997b239-07a2-5f76-9614-366b88ae4ea9", "park_id": "320201" },
+    { "colony_id": "13cf75bc-469a-58be-bb9a-4c139741538b", "park_id": "790402" },
+    { "colony_id": "1bd5e225-9ed3-5433-80b3-d54b4e03680e", "park_id": "503002" },
+    { "colony_id": "65660460-2252-53c5-ab3b-9f47b70ba2a2", "park_id": "395201" },
+    { "colony_id": "11d4e597-f766-5872-a11f-a495bf518e4b", "park_id": "701601" },
+    { "colony_id": "c3b2bedc-a967-5899-abe7-f37ebf93a975", "park_id": "223203" },
+    { "colony_id": "ba1e8478-ddde-5764-a9ca-21fffaa6114d", "park_id": "511901" },
+    { "colony_id": "f17a4e91-6941-5dea-8c2f-1563ceca8048", "park_id": "410801" },
+    { "colony_id": "4d0914cd-83a2-51b2-91f2-44f60b830341", "park_id": "691302" }
+  ]
+}
